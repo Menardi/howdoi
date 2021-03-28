@@ -1,4 +1,4 @@
-baseURL = "https://howdoi.menardi.dev"
+baseURL = "https://howdoi.menardi.dev/"
 languageCode = "en-us"
 title = "How Do I ..."
 theme = "archie"
