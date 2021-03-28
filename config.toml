@@ -1,0 +1,27 @@
+baseURL = "https://howdoi.menardi.dev"
+languageCode = "en-us"
+title = "How Do I ..."
+theme = "archie"
+
+[[menu.main]]
+name = "Javascript"
+url = "/tags/javascript"
+weight = 1
+
+[[menu.main]]
+name = "Typescript"
+url = "/tags/typescript"
+weight = 2
+
+[[menu.main]]
+name = "CSS"
+url = "/tags/css"
+weight = 3
+
+[[menu.main]]
+name = "Git"
+url = "/tags/git"
+weight = 4
+
+[permalinks]
+  posts = ":slug"
