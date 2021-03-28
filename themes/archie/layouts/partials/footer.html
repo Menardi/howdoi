@@ -2,7 +2,7 @@
 {{- range $index, $key := .Site.Params.Social -}}
 <a class="soc" href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>|
 {{- end -}}
-	Suggestions? Email me at <a href="howdoi@menardi.dev">howdoi@menardi.dev</a>. | <a href="/about">About</a>
+	Suggestions? Let me know at <a href="https://github.com/menardi/howdoi">github.com/menardi/howdoi</a> | <a href="/about">About</a>
 </footer>
 {{ if not .Site.IsServer }}
 {{ template "_internal/google_analytics_async.html" . }}
